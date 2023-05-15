@@ -8,3 +8,4 @@ For this lab, you will be using the CSV files provided in the `files_for_lab` fo
 
 - Apply the Random Forests algorithm but this time only by upscaling the data.
 - Discuss the output and its impact in the bussiness scenario. Is the cost of a false positive equals to the cost of the false negative? How would you change your algorithm or data in order to maximize the return of the bussiness?
+- Sklearn classification models are trained to maximize the accuracy. However, another error metric will be more relevant here. Which one? Please checkout make_scorer alongside with GridSearchCV in order to train the model to maximize the error metric of interest in this case.
